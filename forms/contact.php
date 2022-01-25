@@ -1,7 +1,4 @@
 <?php
-echo 'Hello';
-mail('hamzadidlar888@gmail.com','Testing','this is testing');
-die();
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'contact@example.com';
 
@@ -20,14 +17,13 @@ die();
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
     'host' => 'hamzadildar888@gmail.com',
     'username' => 'hamzadildar',
-    'password' => '',
+    'password' => 'SAYhd888!',
     'port' => '587'
   );
-  */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
