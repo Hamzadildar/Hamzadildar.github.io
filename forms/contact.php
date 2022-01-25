@@ -1,5 +1,7 @@
 <?php
+echo 'Hello';
 mail('hamzadidlar888@gmail.com','Testing','this is testing');
+die();
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'contact@example.com';
 
